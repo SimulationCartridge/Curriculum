@@ -8,10 +8,10 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   width: auto;
   height: 50px;
-  background: linear-gradient(to bottom, black, rgba(128, 128, 128, 0.663));
+  background: linear-gradient(to bottom, black, rgba(128, 128, 128, 0.200));
   background-color: black;
 }
 
@@ -20,10 +20,43 @@ body {
   font-size: 1.5rem;
 }
 
-
-
-
-
 h1{
   font-size: 3em;
 }
+
+.header-container{
+  width: auto;
+  height: 750px;
+  background: linear-gradient(to bottom, black, rgba(128, 128, 128, 0.663));
+  background-color: black;
+  background-image: url('assets/background-image.jpg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textos{
+  margin-left: 50px;
+  margin-bottom: 350px;
+}
+
+.name{
+  color: beige;
+}
+
+.academic-title{
+  color: #5bd9ef;
+}
+
+.subtitles{
+  color: #ae8316;
+}
+
+.typist{
+  color: azure;
+}
+
