@@ -1,5 +1,6 @@
 import React from 'react';
 import Typist from 'react-typist';
+import 'react-typist/dist/Typist.css';
 
 const CodeTyping = () => {
   return (

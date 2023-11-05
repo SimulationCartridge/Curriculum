@@ -1,5 +1,5 @@
 import React from "react";
-import CodeTyping from "./codetyping";
+import CodeTyping from "./codetyping.jsx";
 
 function Header () {
     return(
