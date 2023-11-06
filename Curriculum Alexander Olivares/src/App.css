@@ -15,9 +15,13 @@ body {
   background-color: black;
 }
 
+.links:first-child{
+  margin-left: 20px;
+}
+
 .links{
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.225rem;
 }
 
 h1{
@@ -26,7 +30,7 @@ h1{
 
 .header-container{
   width: auto;
-  height: 750px;
+  height: 800px;
   background: linear-gradient(to bottom, black, rgba(128, 128, 128, 0.663));
   background-color: black;
   background-image: url('assets/background-image.jpg');
@@ -39,24 +43,76 @@ h1{
   align-items: center;
 }
 
+.header-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Altura de la transparencia en la parte inferior */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), black);
+  pointer-events: none; /* Evita que el pseudo-elemento interfiera con el contenido */
+}
+
 .textos{
   margin-left: 50px;
-  margin-bottom: 350px;
+  margin-bottom: 40px;
 }
 
 .name{
   color: beige;
+  font-size: 4em;
 }
 
 .academic-title{
   color: #5bd9ef;
+  margin-top: -15px;
+  font-size: 2em;
 }
 
 .subtitles{
   color: #ae8316;
+  font-size: 1.5em;
 }
 
 .typist{
-  color: rgb(0, 0, 0);
+  color: rgb(224, 209, 209, 0.5);
+  font-size: 1em;
+  margin-top: 15px;
 }
 
+
+.about-me{
+  width: auto;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('assets/fondo_3.jpg');
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+.text-box{
+  margin-top: 150px;
+  width: 400px;
+  height: 550px;
+  color: azure;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.about-me-head{
+  font-size: 3em;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.full-text{
+  text-align:justify;
+}

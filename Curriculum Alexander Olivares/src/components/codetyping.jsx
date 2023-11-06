@@ -5,28 +5,28 @@ import 'react-typist/dist/Typist.css';
 const CodeTyping = () => {
   return (
     <Typist className='typist'>
-      <span>Prueba</span>
+      <span>{"<html>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>Prueba2</span>
+      <span>{"  <head>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>Prueba3</span>
+      <span>{"    <title>Mi Página Web</title>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>prueba 4</span>
+      <span>{"  </head>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>Prueba5</span>
+      <span>{"  <body>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>prueba 6</span>
+      <span>{"    <h1>Hola Mundo</h1>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>prueba 7</span>
+      <span>{"  </body>"}</span>
       <Typist.Delay ms={500} />
       <br />
-      <span>prueba 8</span>
+      <span>{"</html>"}</span>
     </Typist>
   );
 }
